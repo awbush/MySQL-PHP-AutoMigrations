@@ -104,11 +104,8 @@ class MpmCommandLineWriter
 		array_unshift($this->text, $bar_obj);
 		
 		$lines = array();
-		$lines[] = ' ';
-		$lines[] = "       __ __         __      __                             ";
-		$lines[] = "|\/|  (_ /  \|   __ |__)|__||__) __ |\/|. _  _ _ |_. _  _  _";
-		$lines[] = "|  |\/__)\_\/|__    |   |  ||       |  ||(_)| (_||_|(_)| )_)";
-		$lines[] = "    /                                    _/                 ";
+		$lines[] = '';
+		$lines[] = 'MySQL-PHP-AutoMigrations';
 		
 		$start = count($lines) - 1;
 		for ($i = $start; $i >=0; $i--)
